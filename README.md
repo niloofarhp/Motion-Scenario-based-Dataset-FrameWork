@@ -28,7 +28,7 @@ This FrameWork is a Kubric-based toolkit for generating customizable video seque
 3. Run a simple generte test
    ```bash
    docker run --gpus all --rm -u $(id -u):$(id -g) -v "$(pwd):/workspace" local/hydra_kubric python3 parseworker.py   
-For more details about the framework implementation and generating your custom dataset refer to the [code folder](https://github.com/niloofarhp/Motion-Scenario-based-Dataset-FrameWork/code).
+For more details about the framework implementation and generating your custom dataset refer to the [code folder](https://github.com/niloofarhp/Motion-Scenario-based-Dataset-FrameWork/tree/main/code).
  
 ## Citation 
 If you use Customizable Motion Scenario-based Dataset Generatio framework please cite:
