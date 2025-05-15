@@ -11,7 +11,7 @@ This FrameWork is a Kubric-based toolkit for generating customizable video seque
   - Fisheye lens distortion  
   - Procedural rain (texture- or shader-based)  
 - **Occlusion Simulation**  
-  - Physical and texture-based bar blockers to introduce depth/motion discontinuities  
+  - Texture-based bar blockers to introduce depth/motion discontinuities  
 - **Fully Configurable via Hydra**  
   - Hierarchical configs in `conf/`  
   - Multirun support for parameter sweeps  
