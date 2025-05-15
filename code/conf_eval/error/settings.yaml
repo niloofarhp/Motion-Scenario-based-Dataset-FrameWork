@@ -1,0 +1,6 @@
+# jacobian, divergence, none
+mpi_sintel: jacobian
+
+relative: true
+fg: true
+bg: true

@@ -1,0 +1,26 @@
+# @package _global_
+
+defaults:
+  - _self_
+  - figure: none
+  - error: settings
+
+base: '/root/tensorflow_datasets'
+
+tfds: flow_dataset
+tfds_config: 'fixed_random_rotate'
+split: 'train'
+
+predictor: arflow
+
+# Enter -1 for all movies in tdfs
+num_movies: -1
+
+# Enter -1 for all frames in movie
+num_frames: -1
+
+hydra:
+  sweeper:
+    params:
+      # tfds_config: fixed_random_rotate, fixed_random_rotate_bar, fixed_random_slide_bar, linear_movement_static, linear_movement_static_bar, linear_movement_rotate, linear_movement_rotate_bar, linear_movement_slide, linear_movement_slide_bar, rotation_slide, rotation_slide_bar, rotation_rotate, rotation_rotate_bar, rotation_static, rotation_static_bar
+      tfds_config: fixed_random_rotate, fixed_random_rotate_bar, fixed_random_slide, fixed_random_slide_bar, linear_movement_static, linear_movement_static_bar, linear_movement_rotate, linear_movement_rotate_bar, linear_movement_slide, linear_movement_slide_bar, rotation_slide, rotation_slide_bar, rotation_rotate, rotation_rotate_bar, rotation_static, rotation_static_bar

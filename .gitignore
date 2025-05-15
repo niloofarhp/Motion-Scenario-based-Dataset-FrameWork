@@ -5,7 +5,16 @@ __pycache__/
 
 # C extensions
 *.so
-
+# flow dataset ignores
+testset/
+outputs/
+output/
+output_old/
+output_testAll/
+multirun/
+multiobject_trainset/
+flow_evals/
+ARFlow/
 # Distribution / packaging
 .Python
 build/

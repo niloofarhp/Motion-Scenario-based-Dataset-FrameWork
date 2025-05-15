@@ -1,0 +1,32 @@
+# @package _global_
+
+defaults:
+  - rotate/movie: motion_0000
+
+frame_end: 24
+min_num_objects: 1
+max_num_objects: 1
+motion: rotate
+job_dir: output
+camera: fixed_random
+camera_min_num_circles: '0.1'
+camera_max_num_circles: '0.25'
+focal_len: '35.0'
+blocker: none
+fisheye: 0
+rain: none
+texture_fac: 0.8
+assets: 'none'
+
+# hydra.mode --multirun
+hydra:
+  sweeper:
+    params:
+      # +movement/rotate/movie: motion_0000, motion_0001, motion_0002, motion_0003, motion_0004, motion_0005, motion_0006, motion_0007, motion_0008, motion_0009
+      +movement/rotate/movie: motion_0000, motion_0001 
+      camera: fixed_random, path, linear_movement, rotation, linear_movement
+      fisheye: 0 , 1
+      rain: none , texture, proc
+      texture_fac: 0, 0.8
+      min_num_objects: 1, 3
+      blocker: texture
