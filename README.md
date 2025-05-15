@@ -6,7 +6,7 @@ This FrameWork is a Kubric-based toolkit for generating customizable video seque
 ## Key Features  
 - **Scenario-Based Organization**  
   - Object motions: static, sliding, rotating  
-  - Camera motions: fixed, linear, Bézier-path, circular :contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}  
+  - Camera motions: fixed, linear, Bézier-path, circular 
 - **Environmental Effects**  
   - Fisheye lens distortion  
   - Procedural rain (texture- or shader-based)  
