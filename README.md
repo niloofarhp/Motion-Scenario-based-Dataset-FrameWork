@@ -32,13 +32,4 @@ For more details about the framework implementation and generating your custom d
  
 ## Available Dataset
   The Dataset we have generated is avialable using this [Link](https://uottawa-my.sharepoint.com/personal/nhoos082_uottawa_ca/_layouts/15/guestaccess.aspx?share=Em0aGJ-ycohDhyB9uH2gRvMB0WqmagwDsTIxuo8jfejl1g&e=EuYdMC)
-## Citation 
-If you use Customizable Motion Scenario-based Dataset Generatio framework please cite:
-
-@inproceedings{Hooshyaripour2025,
-  title={Customizable Motion Scenario-based Dataset Generation for Optical Flow Evaluation},
-  author={Hooshyaripour, N. and Liao, K. and Lang, J. and Petriu, E.},
-  booktitle={CVPR Workshops},
-  year={2025}
-}
 
